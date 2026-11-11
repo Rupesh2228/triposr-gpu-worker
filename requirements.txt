@@ -1,0 +1,19 @@
+# Keep Colab's CUDA-enabled torch installation; do not install a second torch here.
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.9,<1
+numpy==2.4.4
+Pillow==12.3.0
+transformers==4.46.3
+tokenizers==0.20.3
+omegaconf
+einops
+trimesh
+rembg
+huggingface-hub
+imageio[ffmpeg]
+xatlas
+moderngl
+httpx
+pytest
+
